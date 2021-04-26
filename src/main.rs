@@ -85,7 +85,7 @@ const SPACINGMINIMUM: f32 = 0.1;
 const LOGO_OFFSET_Y: f32 = -160.0;
 const MENU_QUIT_OFFSET_Y: f32 = 128.0;
 
-const GRAVITY_INITIAL: f32 = 0.11920928955; //0.02 -> 0.11920928955
+const GRAVITY_INITIAL: f32 = 0.02; //0.02 -> 0.11920928955
 const GRAVITY_MULTIPLIER: f32 = 1.25;
 const DEPTH_MULT_INITIAL: f32 = 0.25;
 const DEPTH_MULT_MULTIPLIER: f32 = 2.0;
@@ -104,7 +104,7 @@ const RARITIES: [u64;10] = [1,5,10,50,100,2500,10000,250000,1000000,25000000];
 const THANKS_OFFSET_X: f32 = 103.0;
 const LDNOTICE_OFFSET_X: f32 = 324.0;
 
-const INVINCIBLE: bool = true;
+const INVINCIBLE: bool = false;
 
 const FALLING_SONG_PATH: &str = "res/falling.ogg";
 const SHOP_SONG_PATH: &str = "res/shop.ogg";
