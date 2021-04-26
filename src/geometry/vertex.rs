@@ -1,0 +1,1 @@
+pub struct Vertex(pub f32,pub f32);
